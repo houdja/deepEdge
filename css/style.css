@@ -177,3 +177,61 @@ section{
     left: 0;
     z-index: -1;
 }
+
+/* SEVICES */
+
+.contain__services__card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.services__card{
+    width: 48%;
+    margin-bottom: 75px;
+}
+
+.carre{
+    width: 20px;
+    height: 30px;
+    border: 1px solid var(--main__color);
+    margin-bottom: 20px;
+}
+
+.services__card h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.services__card h2::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: var(--main__color);
+    margin-right: 20px;
+}
+
+.services__card p{
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.6em;
+}
+
+.s__img{
+    width: 50%;
+    display: none;
+}
+
+.services_img{
+    width: 100%;
+}
+
+.services__bg{
+    display: none;
+}

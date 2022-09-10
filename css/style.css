@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'overpass', 'sorce sans pro', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main__color:#6357FF;
+    --black__color:#1D1D1B;
+    --white__color:#FFFFFF;
+    --box__shadow: 0 3px 15px rgba(0,0,0,0.2);
+}
+
+body{
+    background-color: var(--white__color);
+}

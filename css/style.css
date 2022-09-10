@@ -18,8 +18,9 @@ body{
     background-color: var(--white__color);
 }
 
-.header{
-    height: 100vh;
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -41,7 +42,7 @@ body{
     font-size: 30px;
     color: var(--white__color);
     padding-left: 30px;
-    color: var(--main__color);
+    color: var(--white__color);
 }
 
 .contain__social__icons{
@@ -49,6 +50,7 @@ body{
     height: 100%;
     width: 150px;
     justify-content: center;
+    z-index: 3;
 }
 
 .contain__social__icons i{
@@ -56,4 +58,70 @@ body{
     color: var(--white__color);
     cursor: pointer;
     padding: 0 10px;
+}
+
+/* HEADER */
+
+.header{
+    height: 100vh;
+    background-color: var(--main__color);
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.header .container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    color: var(--white__color);
+}
+
+.slogan{
+    text-transform: uppercase;
+}
+
+.header .container h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header .container p{
+    width: 60%;
+}
+
+.header .container h1,
+.header .container p
+{
+    margin-bottom: 30px;
+}
+
+.header__description{
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.header__btn{
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header__btn a{
+    color: var(--black__color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img{
+    display: none;
 }

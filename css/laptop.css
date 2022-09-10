@@ -43,3 +43,16 @@
 .portfolio__cards{
     grid-template-columns: repeat(4, minmax(200px, 1fr));
 }
+
+/* TEAM */
+
+.contain__team_card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.team_description{
+    font-size: 14px;
+}

@@ -241,6 +241,11 @@ section{
     padding-top: 0;
 }
 
+.portfolio .title,
+.team .title{
+    color: var(--black__color);
+}
+
 .portfolio__text{
     text-align: center;
 }
@@ -253,7 +258,58 @@ section{
 }
 
 .portfolio__card{
-    height: 400px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
+}
+
+/* OUR TEAM */
+
+.team{
+    padding-top: 0;
+}
+
+.team .slogan,
+.team .title{
+    text-align: center;
+}
+
+.contain__team_card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.team__card{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__img{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team_description{
+    background-color: var(--main__color);
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white__color);
+    font-size: 12px;
+}
+
+.team__name{
+    text-transform: uppercase;
+}
+
+.team__name p:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.team__socials i:nth-child(2){
+    margin: 0 10px;
 }

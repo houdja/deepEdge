@@ -1,0 +1,12 @@
+.navbar{
+    height: 75px;
+}
+
+.contain__social__icons{
+    width: 200px;
+}
+
+.contain__social__icons i{
+    font-size: 18px;
+    padding: 0 15px;
+}

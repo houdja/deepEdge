@@ -1,0 +1,35 @@
+/* SEVICES */
+
+.services{
+    position: relative;
+}
+
+.services .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__text{
+    width: 50%;
+}
+
+.s__img{
+    width: 45%;
+    display: block;
+}
+
+.services_img{
+    width: 100%;
+}
+
+.services__bg{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33%;
+    height: 100%;
+    background-color: var(--main__color);
+    z-index: -1;
+}

@@ -21,6 +21,8 @@
 
 .services_img{
     width: 100%;
+    box-shadow: var(--box__shadow);
+    object-fit: cover;
 }
 
 .services__bg{
@@ -28,8 +30,14 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 33%;
+    width: 40%;
     height: 100%;
     background-color: var(--main__color);
     z-index: -1;
+}
+
+/* PORTFOLIO */
+
+.portfolio__cards{
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
 }

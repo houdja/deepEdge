@@ -11,7 +11,7 @@
     --main__color:#6357FF;
     --black__color:#1D1D1B;
     --white__color:#FFFFFF;
-    --box__shadow: 0 3px 15px rgba(0,0,0,0.2);
+    --box__shadow: 0 0px 30px rgba(0,0,0,0.3);
 }
 
 body{
@@ -234,4 +234,26 @@ section{
 
 .services__bg{
     display: none;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    padding-top: 0;
+}
+
+.portfolio__text{
+    text-align: center;
+}
+
+.portfolio__cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.portfolio__card{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }

@@ -40,3 +40,25 @@
     position: absolute;
     right: 0;
 }
+
+/* ABOUT */
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__text{
+    width: 55%;
+}
+
+.about__img{
+    width: 43%;
+    height: 40vh;
+}
+
+.about__background{
+    width: 60%;
+    height: 100%;
+}

@@ -56,3 +56,21 @@
 .team_description{
     font-size: 14px;
 }
+
+/* SECTION CONTACT */
+
+.contain__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.form__contact{
+    width: 40%;
+}
+
+.map{
+    width: 40%;
+    margin: 0;
+}
